@@ -1,48 +1,28 @@
 ---
 layout: default
-title: Research – Viet-Man Le
+title: Research – Thi Ngoc Trang Tran
 ---
 
 ## Research
 
-My research centers on **Knowledge-based Diagnosis**, **Constraint Acquisition**, **Configuration Systems**, **Software Product Lines**, and **Explanations in AI**, with recent work extending these foundations to **Large Language Models for Software Product Line Engineering**. The goal is to make knowledge-based systems — such as configuration systems and recommender systems — faster, more transparent, and more useful for end users, by combining classical constraint reasoning with modern learning-based techniques.
+My research centers on **recommender systems**, **user modeling**, and **human decision-making**, with an emphasis on **explainable recommendations** and support for both single-user and group decision making. Applications span domains such as **healthcare** and **sustainability-aware systems**. I also work on AI-based mechanisms for **software testing and debugging** in configuration systems.
 
 ### Research Interests
 
-* Knowledge-based Diagnosis and Conflict Detection
-* Constraint Acquisition and Constraint Solving
-* Feature Models and Software Product Lines
-* Large Language Models for Software Product Line Engineering
-* Explanations in AI for Configuration Systems and Recommender Systems
+* Recommender Systems and Group Recommender Systems
+* User Modeling and Human Decision-Making
+* Explainable Recommendations
+* Recommender Systems for Healthcare and Sustainability
+* AI for Software Testing and Debugging in Configuration Systems
 
 ### Projects
 
-I am a team member of the following projects, led by [Professor Alexander Felfernig](https://ase.ist.tugraz.at/staff/alexander-felfernig/){:target="_blank"} (PI):
+**HUMAX** — *Human Factors-Enhanced Explanations in Recommender Systems.* Principal Investigator. Develops methods to incorporate human factors into explanations within recommender systems. (FWF WEAVE call, under review.)
 
-**MIRROR** — *Material Improvement through Reflective Review of Outputs and Resources.* A teaching innovation project funded by *Projektfonds Lehre 2026* (TU Graz Vice-Rectorate for Teaching) that uses Large Language Models to analyze anonymized student submissions from the *Introduction to Structured Programming* course and propose targeted didactic improvements for the upcoming summer semester.
+**[GenRE](https://ase.sai.tugraz.at/research-projects/genre-generative-ai-for-requirements-engineering/){:target="_blank"}** — *Generative AI for Requirements Engineering.* Team member. Investigates how Large Language Models can improve requirements engineering tasks including definition, quality assurance, reuse, and prioritization.
 
-**[GenRE](https://ase.sai.tugraz.at/research-projects/genre-generative-ai-for-requirements-engineering/)** — *Generative AI for Requirements Engineering.* An FFG Bridge project (2024–2027) developing LLM-based techniques for requirements elicitation, quality assurance, and validation in software engineering. Industry partner: Morgendigital; external evaluation partners: Innovation Service Network and Uniquare.
+**[OpenSpace](https://ase.sai.tugraz.at/research-projects/openspace-ffg-bridge/){:target="_blank"}** — *AI Techniques for Testing Highly-Variant Software.* Team member. Automated analysis of software variability models and generation of test cases, plus machine learning approaches for identifying faulty software components and suboptimal configurations.
 
-**[OpenSpace](https://ase.sai.tugraz.at/research-projects/openspace-ffg-bridge/)** — *AI Techniques for Testing Highly-Variant Software.* An FFG Bridge project (2021–2024) developing machine learning approaches for testing and debugging variability-intensive software, including automated analysis of variability models and the identification of faulty components and suboptimal parameterizations. Industry partner: Uniquare GmbH.
+**[ParXCel](https://ase.sai.tugraz.at/research-projects/parxcel-ffg-bridge/){:target="_blank"}** — *Machine Learning and Parallelization for Scalable Constraint Solving.* Team member. Machine learning techniques for constraint solving performance and prediction quality, with parallelized analysis operations.
 
-**[ParXCel](https://ase.sai.tugraz.at/research-projects/parxcel-ffg-bridge/)** — *Machine Learning and Parallelization for Scalable Constraint Solving.* An FFG Bridge project (2020–2023) integrating machine learning into constraint-based reasoning to enable personalized configuration, and parallelizing analysis operations such as conflict detection and diagnosis to boost performance. Industry partner: Combeenation GmbH.
-
-I also contribute as an external AI expert (doctoral researcher) from the Felfernig group at TU Graz to the following industry-led project:
-
-**Kickscale: KI-Engine** — *Development of a Sales-Specialized Large Language Model and Integration into the Kickscale SaaS Platform.* An FFG Basisprogramm project (2023–2025) led by [Kickscale GmbH](https://www.kickscale.com){:target="_blank"} (Vienna), with the Felfernig group at TU Graz acting as scientific know-how transfer partner. Contributes LLM-based methods for analyzing sales conversations and extracting Ideal Customer Profiles from CRM data, together with frameworks for evaluating LLM and RAG outputs.
-
-### Software & Tools
-
-I have developed (and contributed to) the following software and tools:
-
-**[flamapy](https://www.flamapy.org)** *(Python)* — open-source ecosystem for the automated analysis of feature models. Contributed **FastDiagP**, **DirectDebug**, and **WipeOutR** as plugins. **FastDiagP** is also accessible interactively through the browser-based environment [flamapy.ide](https://ide.flamapy.org).
-
-**[FMTesting](https://github.com/AIG-ist-tugraz/FMTesting)** *(Java, FeatureIDE plug-in)* — Eclipse plug-in for feature model testing and debugging, built on top of **hiconfit-core**. Integrates **DirectDebug**, **WipeOutR**, and **AggregatedTest**.
-
-**Restful Configurator Webservice** *(Java, REST API, Spring Boot)* — Proprietary REST API for developing product configurators, developed for [Combeenation GmbH](https://www.combeenation.com/){:target="_blank"} within the **[ParXCel](https://ase.sai.tugraz.at/research-projects/parxcel-ffg-bridge/){:target="_blank"}** project. Built on top of **hiconfit-core**. Provides domain reduction, matrix factorization-based configuration and recommendation, option reordering via Value Variable Heuristics, and conflict and diagnosis detection.
-
-**[DirectDebug](https://github.com/AIG-ist-tugraz/DirectDebug)** *(Java)* — software package for the automated testing and debugging of variability models. Published in *Software Impacts* (2021).
-
-**[FM2ExConf](https://fm2exconf.sai.tugraz.at)** *(Java)* — converts feature models into executable Excel-based configurators, built on top of **hiconfit-core**. Supports anomaly detection and configuration explanation, making configuration accessible to non-IT stakeholders.
-
-**[HiConfiT](https://hiconfit.github.io/)** *(Java)* — *High Performance Knowledge Based Configuration Techniques.* A suite of open-source libraries (**hiconfit-core**) and command-line apps (**KBStatistics**, **FMGen**) for Knowledge-Based Configuration Systems. Used by **FMTesting** and **FM2ExConf**.
+**WeWant** — *Configuration Technologies for Group Decision Support.* Team member. Focuses on configuration technologies and decision-making support for user groups. (Austrian Research Promotion Agency.)

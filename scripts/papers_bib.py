@@ -65,7 +65,7 @@ STANDARD_FIELD_ORDER = [
     "html_venue",
 ]
 
-UA = "papers_bib.py (https://manleviet.github.io; mailto:manleviet@gmail.com)"
+UA = "papers_bib.py (https://thingoctrangtran.github.io; mailto:trang.tran@tugraz.at)"
 
 
 # ─────────────────────────────────────────────────────────────── BibTeX I/O ──

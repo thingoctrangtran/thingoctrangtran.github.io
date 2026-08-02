@@ -13,3 +13,17 @@ __pycache__/
 *.swp
 *.swo
 *~
+
+# Local tooling / IDE (not part of the site)
+.claude/
+.idea/
+
+# Working bibliography export (full DBLP dump, not published)
+/trang-tran-publications.bib
+
+# LaTeX build artifacts (keep cv.tex + cv.pdf only)
+assets/pdf/*.aux
+assets/pdf/*.log
+assets/pdf/*.out
+assets/pdf/*.fls
+assets/pdf/*.fdb_latexmk

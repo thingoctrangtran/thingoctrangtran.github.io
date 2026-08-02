@@ -1,0 +1,234 @@
+%==============================================================================
+%  Curriculum Vitae — Thi Ngoc Trang Tran
+%  Template style reproduced from Viet-Man Le's CV (manleviet.github.io).
+%  Self-contained; compiles with pdfLaTeX (needs: titlesec, enumitem,
+%  hyperref, tabularx, lmodern). Run pdflatex twice.
+%==============================================================================
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=1.9cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\definecolor{linkblue}{HTML}{1A4B8C}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=linkblue,
+  linkcolor=linkblue,
+  pdftitle={Thi Ngoc Trang Tran --- Curriculum Vitae},
+  pdfauthor={Thi Ngoc Trang Tran}
+}
+
+% ---- section headers: small caps + horizontal rule (Viet-Man Le style) -------
+\titleformat{\section}
+  {\large\scshape}{}{0em}{}[{\vspace{-0.4ex}\titlerule[0.8pt]}]
+\titlespacing{\section}{0pt}{1.6ex plus .3ex}{0.9ex}
+
+\titleformat{\subsection}[runin]
+  {\normalsize\bfseries}{}{0em}{}
+\titlespacing{\subsection}{0pt}{1.2ex}{0.6em}
+
+\setlist[itemize]{leftmargin=1.4em,itemsep=1pt,topsep=2pt,parsep=0pt}
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{2em}
+\pagestyle{empty}
+\renewcommand{\baselinestretch}{1.02}
+
+% ---- helper: a two-line entry (bold title + right info, italic sub + date) ---
+\newcommand{\entry}[4]{%
+  \begin{tabularx}{\linewidth}{@{}X r@{}}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4} \\
+  \end{tabularx}\vspace{0.4ex}\par}
+
+% ---- helper: a dated single line (description left, year right) --------------
+\newcommand{\dated}[2]{%
+  \begin{tabularx}{\linewidth}{@{}X r@{}}
+    #1 & \textit{#2}
+  \end{tabularx}\vspace{0.3ex}\par}
+
+% ---- helper: a publication with hanging indent ------------------------------
+\newcommand{\pub}[1]{%
+  \par\noindent\hangindent=1.5em\hangafter=1 #1\par\vspace{0.5ex}}
+% ---- helper: a year sub-heading inside the publication list -----------------
+\newcommand{\pubyear}[1]{\vspace{0.7ex}\par\noindent\textbf{#1}\par\vspace{0.2ex}}
+
+\newcommand{\me}{\textbf{T.\,N.\,T.\,Tran}}
+
+%==============================================================================
+\begin{document}
+
+% ------------------------------------------------------------------ header ----
+\begin{center}
+  {\Huge\scshape Thi Ngoc Trang Tran}\\[0.6ex]
+  {\itshape Senior Postdoctoral Researcher}\\
+  Institute of Software Engineering and Artificial Intelligence\\
+  Applied Software Engineering \& AI Group, Graz University of Technology, Austria\\[0.5ex]
+  \href{mailto:trang.tran@tugraz.at}{trang.tran@tugraz.at} $\vert$
+  \href{https://thingoctrangtran.github.io}{thingoctrangtran.github.io} $\vert$
+  \href{https://scholar.google.com/citations?user=N53Bxl0AAAAJ&hl=en}{Google Scholar} $\vert$
+  \href{https://orcid.org/0000-0002-3550-8352}{ORCID} $\vert$
+  \href{https://dblp.org/pid/201/1870.html}{DBLP} $\vert$
+  \href{https://www.linkedin.com/in/trang-tran-b98322b4/}{LinkedIn}
+\end{center}
+
+% --------------------------------------------------------- research domains ---
+\section{Research Interests}
+Recommender Systems; Group Recommender Systems; Human Decision Making; Intelligent
+User Interfaces; Explanations and Explainable AI; Configuration Systems; Software
+Engineering.
+
+% ------------------------------------------------------------------ education --
+\section{Education}
+\entry{Graz University of Technology}{Graz, Austria}
+      {Ph.D. in Computer Science}{2015 -- 2019}
+\entry{College of Sciences, Hue University}{Hue, Vietnam}
+      {Master of Computer Science}{2006 -- 2008}
+\entry{College of Sciences, Hue University}{Hue, Vietnam}
+      {Bachelor of Computer Science}{2000 -- 2004}
+
+% ----------------------------------------------------------------- employment --
+\section{Employment}
+\entry{Graz University of Technology}{Graz, Austria}
+      {Senior Postdoctoral Researcher / University Assistant with Doctorate,
+       Institute of Software Engineering and AI}{since 2019}
+\entry{Hue University}{Hue, Vietnam}
+      {Lecturer, Dept.\ of Information Technology and Communication,
+       School of Hospitality and Tourism}{2009 -- 2015}
+\entry{Hue University}{Hue, Vietnam}
+      {Project Assistant, Center of Information Technology}{2004 -- 2008}
+
+% --------------------------------------------------------------- grants/awards --
+\section{Grants \& Awards}
+\dated{Nominated for Best Teaching, course \textit{Introduction to Structured Programming}, TU Graz}{2023 \& 2024}
+\dated{ACM UMAP 2019 --- SIGCHI Student Travel Grant}{2019}
+\dated{\textbf{Best Paper Award} --- Configuration Workshop 2018 (ConfWS'2018)}{2018}
+\dated{\textbf{Best Paper Award} --- SEKE'2017}{2017}
+\dated{\textbf{Runner-up Best Paper Award} --- Configuration Workshop 2016 (ConfWS'2016)}{2016}
+\dated{Vietnamese--Austrian Doctoral Grant (Vietnamese Government \& OeAD, Austria)}{2015 -- 2019}
+\dated{Recognition among the top Bachelor's graduates in Computer Science}{2004}
+\dated{Odon-Vallet Grant for excellent Computer Science students}{2003}
+
+% ------------------------------------------------------------- publications ----
+\section{Selected Publications}
+Below is a selection of my peer-reviewed publications. According to
+\href{https://scholar.google.com/citations?user=N53Bxl0AAAAJ&hl=en}{Google Scholar}
+(July 2026): \textbf{2{,}509 citations}, h-index \textbf{24}, i10-index \textbf{40}.
+My full and up-to-date list of publications is available on
+\href{https://scholar.google.com/citations?user=N53Bxl0AAAAJ&hl=en}{Google Scholar}.
+
+\pubyear{2026}
+\pub{\textbf{Thi Ngoc Trang Tran}, Sebastian Lubos, Alexander Felfernig, Mehrdad Rostami, Viet-Man Le, Damian Garber. \textit{When Do Contrastive Explanations Really Matter in Recommender Systems?}. \textit{ACM Conference on Recommender Systems} (RecSys 2026) — just accepted. \textbf{CORE A}.}
+\pub{Alexander Felfernig, Damian Garber, Viet-Man Le, Sebastian Lubos, \textbf{Thi Ngoc Trang Tran}. \textit{Sustainability Evaluation Metrics for Recommender Systems}. \textit{Recommender Systems for Sustainability and Social Good}, pp. 14–26. \href{https://doi.org/10.1007/978-3-032-13342-7_2}{DOI}}
+
+\pubyear{2025}
+\pub{Alexander Felfernig, Damian Garber, Sebastian Lubos, \textbf{Thi Ngoc Trang Tran}. \textit{Sustainability Evaluation Metrics for Configuration Systems}. \textit{27th International Workshop on Configuration (ConfWS 2025)}, co-located with ECAI 2025. CEUR-WS, vol. 4149, pp. 192–198. \href{https://ceur-ws.org/Vol-4149/paper16.pdf}{PDF}}
+\pub{Alexander Felfernig, Damian Garber, Viet-Man Le, Sebastian Lubos, \textbf{Thi Ngoc Trang Tran}. \textit{Towards LLM-Enhanced Product Line Scoping}. \textit{27th International Workshop on Configuration (ConfWS 2025)}, co-located with ECAI 2025. CEUR-WS, vol. 4149, pp. 128–134. \href{https://ceur-ws.org/Vol-4149/paper11.pdf}{PDF}}
+\pub{Sebastian Lubos, \textbf{Thi Ngoc Trang Tran}, Viet-Man Le, Damian Garber, Manuel Henrich, Reinhard Willfort, Jeremias Fuchs. \textit{Towards LLM-Enhanced Group Recommender Systems}. \textit{12th Joint Workshop on Interfaces and Human Decision Making for Recommender Systems (IntRS 2025)}, co-located with RecSys 2025. CEUR-WS, vol. 4027. \href{https://ceur-ws.org/Vol-4027/paper5.pdf}{PDF}}
+\pub{Sebastian Lubos, Alexander Felfernig, Damian Garber, Viet-Man Le, \textbf{Thi Ngoc Trang Tran}. \textit{Towards LLM-Based Usability Analysis for Recommender User Interfaces}. \textit{12th Joint Workshop on Interfaces and Human Decision Making for Recommender Systems (IntRS 2025)}, co-located with RecSys 2025. CEUR-WS, vol. 4027. \href{https://ceur-ws.org/Vol-4027/paper7.pdf}{PDF}}
+
+\pubyear{2024}
+\pub{\textbf{Thi Ngoc Trang Tran}, Seda Polat Erdeniz, Alexander Felfernig, Sebastian Lubos, Merfat El Mansi, Viet-Man Le. \textit{Less is More: Towards Sustainability-Aware Persuasive Explanations in Recommender Systems}. \textit{18th ACM Conference on Recommender Systems}. RecSys ’24. ACM, pp. 1108–1112. \href{https://doi.org/10.1145/3640457.3691708}{DOI}}
+\pub{Sebastian Lubos, Alexander Felfernig, \textbf{Thi Ngoc Trang Tran}, Damian Garber, Merfat El Mansi, Seda Polat Erdeniz, Viet-Man Le. \textit{Leveraging LLMs for the Quality Assurance of Software Requirements}. \textit{2024 IEEE 32nd International Requirements Engineering Conference (RE)}, pp. 389–397. \href{https://doi.org/10.1109/re59067.2024.00046}{DOI}}
+\pub{Alexander Felfernig, Manfred Wundara, \textbf{Thi Ngoc Trang Tran}, Viet-Man Le, Sebastian Lubos, Seda Polat-Erdeniz. \textit{Sports recommender systems: overview and research directions}. \textit{Journal of Intelligent Information Systems}, vol. 62, no. 4, pp. 1125–1164. \href{https://doi.org/10.1007/s10844-024-00857-w}{DOI}}
+\pub{Viet-Man Le, Alexander Felfernig, \textbf{Thi Ngoc Trang Tran}, Mathias Uta. \textit{INFORMEDQX: Informed Conflict Detection for Over-Constrained Problems}. \textit{Proceedings of the AAAI Conference on Artificial Intelligence}, vol. 38, no. 9, pp. 10616–10623. \href{https://doi.org/10.1609/aaai.v38i9.28932}{DOI}}
+\pub{Mathias Uta, Alexander Felfernig, Viet-Man Le, \textbf{Thi Ngoc Trang Tran}, Damian Garber, Sebastian Lubos, Tamim Burgstaller. \textit{Knowledge-based recommender systems: overview and research directions}. \textit{Frontiers in Big Data}, vol. 7. \href{https://doi.org/10.3389/fdata.2024.1304439}{DOI}}
+
+\pubyear{2023}
+\pub{Seda Polat Erdeniz, \textbf{Thi Ngoc Trang Tran}, Alexander Felfernig, Sebastian Lubos, Michael Schrempf, Diether Kramer, Peter P. Rainer. \textit{Employing Nudge Theory and Persuasive Principles with Explainable AI in Clinical Decision Support}. \textit{2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)}, pp. 2983–2989. \href{https://doi.org/10.1109/bibm58861.2023.10385315}{DOI}}
+\pub{Alexander Felfernig, Manfred Wundara, \textbf{Thi Ngoc Trang Tran}, Seda Polat-Erdeniz, Sebastian Lubos, Merfat El Mansi, Damian Garber, Viet-Man Le. \textit{Recommender systems for sustainability: overview and research issues}. \textit{Frontiers in Big Data}, vol. 6. \href{https://doi.org/10.3389/fdata.2023.1284511}{DOI}}
+\pub{\textbf{Thi Ngoc Trang Tran}, Alexander Felfernig, Viet Man Le. \textit{An overview of consensus models for group decision-making and group recommender systems}. \textit{User Modeling and User-Adapted Interaction}, vol. 34, no. 3, pp. 489–547. \href{https://doi.org/10.1007/s11257-023-09380-z}{DOI}}
+\pub{Tamim Burgstaller, Viet-Man Le, \textbf{Thi Ngoc Trang Tran}, Alexander Felfernig. \textit{FMTESTING: A FEATUREIDE Plug-in for Automated Feature Model Analysis and Diagnosis}. \textit{ECAI 2023}. \href{https://doi.org/10.3233/faia230640}{DOI}}
+\pub{Sebastian Lubos, Alexander Felfernig, Viet-Man Le, \textbf{Thi Ngoc Trang Tran}, David Benavides, José A. Zamudio, Damian Garber. \textit{Analysis Operations On The Run: Feature Model Analysis in Constraint-based Recommender Systems}. \textit{Proceedings of the 27th ACM International Systems and Software Product Line Conference - Volume A}. SPLC ’23. ACM, pp. 111–116. \href{https://doi.org/10.1145/3579027.3608982}{DOI}}
+\pub{\textbf{Thi Ngoc Trang Tran}, Alexander Felfernig, Viet Man Le, Thi Minh Ngoc Chau, Thu Giang Mai. \textit{User Needs for Explanations of Recommendations: In-depth Analyses of the Role of Item Domain and Personal Characteristics}. \textit{Proceedings of the 31st ACM Conference on User Modeling, Adaptation and Personalization}. UMAP ’23. ACM, pp. 54–65. \href{https://doi.org/10.1145/3565472.3592950}{DOI}}
+\pub{Viet-Man Le, Cristian Vidal Silva, Alexander Felfernig, David Benavides, José Galindo, \textbf{Thi Ngoc Trang Tran}. \textit{FASTDIAGP: An Algorithm for Parallelized Direct Diagnosis}. \textit{Proceedings of the AAAI Conference on Artificial Intelligence}, vol. 37, no. 5, pp. 6442–6449. \href{https://doi.org/10.1609/aaai.v37i5.25792}{DOI}}
+
+\pubyear{2022}
+\pub{Viet-Man Le, Alexander Felfernig, Mathias Uta, \textbf{Thi Ngoc Trang Tran}, Cristian Vidal Silva. \textit{WipeOutR: automated redundancy detection for feature models}. \textit{Proceedings of the 26th ACM International Systems and Software Product Line Conference - Volume A}. SPLC ’22. ACM, pp. 164–169. \href{https://doi.org/10.1145/3546932.3546992}{DOI}}
+\pub{Viet-Man Le, \textbf{Thi Ngoc Trang Tran}, Alexander Felfernig. \textit{Consistency-based integration of multi-stakeholder recommender systems with feature model configuration}. \textit{Proceedings of the 26th ACM International Systems and Software Product Line Conference - Volume B}. SPLC ’22. ACM, pp. 178–182. \href{https://doi.org/10.1145/3503229.3547050}{DOI}}
+\pub{Viet-Man Le, Alexander Felfernig, \textbf{Thi Ngoc Trang Tran}. \textit{Test case aggregation for efficient feature model testing}. \textit{Proceedings of the 26th ACM International Systems and Software Product Line Conference - Volume B}. SPLC ’22. ACM, pp. 174–177. \href{https://doi.org/10.1145/3503229.3547046}{DOI}}
+\pub{Seda Polat Erdeniz, Sai Veeranki, Michael Schrempf, Stefanie Jauk, \textbf{Thi Ngoc Trang Tran}, Alexander Felfernig, Diether Kramer, Werner Leodolter. \textit{Explaining Machine Learning Predictions of Decision Support Systems in Healthcare}. \textit{Current Directions in Biomedical Engineering}, vol. 8, no. 2, pp. 117–120. \href{https://doi.org/10.1515/cdbme-2022-1031}{DOI}}
+
+\pubyear{2021}
+\pub{Müslüm Atas, Alexander Felfernig, Seda Polat-Erdeniz, Andrei Popescu, \textbf{Thi Ngoc Trang Tran}, Mathias Uta. \textit{Towards psychology-aware preference construction in recommender systems: Overview and research issues}. \textit{Journal of Intelligent Information Systems}, vol. 57, no. 3, pp. 467–489. \href{https://doi.org/10.1007/s10844-021-00674-5}{DOI}}
+\pub{\textbf{Thi Ngoc Trang Tran}, Viet Man Le, Muesluem Atas, Alexander Felfernig, Martin Stettinger, Andrei Popescu. \textit{Do Users Appreciate Explanations of Recommendations? An Analysis in the Movie Domain}. \textit{Fifteenth ACM Conference on Recommender Systems}. RecSys ’21. ACM, pp. 645–650. \href{https://doi.org/10.1145/3460231.3478859}{DOI}}
+\pub{Mathias Uta, Alexander Felfernig, Viet-Man Le, Andrei Popescu, \textbf{Thi Ngoc Trang Tran}, Denis Helic. \textit{Evaluating recommender systems in feature model configuration}. \textit{Proceedings of the 25th ACM International Systems and Software Product Line Conference - Volume A}. SPLC ’21. ACM, pp. 58–63. \href{https://doi.org/10.1145/3461001.3471144}{DOI}}
+\pub{Viet-Man Le, Alexander Felfernig, \textbf{Thi Ngoc Trang Tran}, Müslüm Atas, Mathias Uta, David Benavides, José Galindo. \textit{DirectDebug: A software package for the automated testing and debugging of feature models}. \textit{Software Impacts}, vol. 9, p. 100085. \href{https://doi.org/10.1016/j.simpa.2021.100085}{DOI}}
+\pub{Elisabeth Lex, Dominik Kowald, Paul Seitlinger, \textbf{Thi Ngoc Trang Tran}, Alexander Felfernig, Markus Schedl. \textit{Psychology-informed Recommender Systems}. \textit{Foundations and Trends\textregistered{} in Information Retrieval}, vol. 15, no. 2, pp. 134–242. \href{https://doi.org/10.1561/1500000090}{DOI}}
+\pub{\textbf{Thi Ngoc Trang Tran}, Alexander Felfernig, Nava Tintarev. \textit{Humanized Recommender Systems: State-of-the-art and Research Issues}. \textit{ACM Transactions on Interactive Intelligent Systems}, vol. 11, no. 2, pp. 1–41. \href{https://doi.org/10.1145/3446906}{DOI}}
+\pub{Viet-Man Le, Alexander Felfernig, Mathias Uta, David Benavides, José Galindo, \textbf{Thi Ngoc Trang Tran}. \textit{DIRECTDEBUG: Automated Testing and Debugging of Feature Models}. \textit{2021 IEEE/ACM 43rd International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER)}, pp. 81–85. \href{https://doi.org/10.1109/icse-nier52604.2021.00025}{DOI}}
+\pub{Viet-Man Le, \textbf{Thi Ngoc Trang Tran}, Alexander Felfernig. \textit{A Conversion of Feature Models into an Executable Representation in Microsoft Excel}. \textit{Intelligent Systems in Industrial Applications}, pp. 153–168. \href{https://doi.org/10.1007/978-3-030-67148-8_12}{DOI}}
+
+\pubyear{2020}
+\pub{\textbf{Thi Ngoc Trang Tran}, Alexander Felfernig, Christoph Trattner, Andreas Holzinger. \textit{Recommender systems in the healthcare domain: state-of-the-art and research issues}. \textit{Journal of Intelligent Information Systems}, vol. 57, no. 1, pp. 171–201. \href{https://doi.org/10.1007/s10844-020-00633-6}{DOI}}
+\pub{Stettinger Martin, \textbf{Thi Ngoc Trang Tran}, Pribik Ingo, Leitner Gerhard, Felfernig Alexander, Samer Ralph, Atas Müslüm, Wundara Manfred. \textit{KNOWLEDGECHECKR: Intelligent Techniques for Counteracting Forgetting}. \textit{ECAI 2020}. \href{https://doi.org/10.3233/faia200479}{DOI}}
+
+\pubyear{2019}
+\pub{Seda Polat Erdeniz, Andreas Menychtas, Ilias Maglogiannis, Alexander Felfernig, \textbf{Thi Ngoc Trang Tran}. \textit{Recommender systems for IoT enabled quantified-self applications}. \textit{Evolving Systems}, vol. 11, no. 2, pp. 291–304. \href{https://doi.org/10.1007/s12530-019-09302-8}{DOI}}
+\pub{Muesluem Atas, Ralph Samer, Alexander Felfernig, \textbf{Thi Ngoc Trang Tran}, Seda Polat Erdeniz, Martin Stettinger. \textit{Socially-Aware Diagnosis for Constraint-Based Recommendation}. \textit{Proceedings of the 27th ACM Conference on User Modeling, Adaptation and Personalization}. UMAP ’19. ACM, pp. 121–129. \href{https://doi.org/10.1145/3320435.3320436}{DOI}}
+\pub{\textbf{Thi Ngoc Trang Tran}, Müslüm Atas, Alexander Felfernig, Viet Man Le, Ralph Samer, Martin Stettinger. \textit{Towards Social Choice-based Explanations in Group Recommender Systems}. \textit{Proceedings of the 27th ACM Conference on User Modeling, Adaptation and Personalization}. UMAP ’19. ACM, pp. 13–21. \href{https://doi.org/10.1145/3320435.3320437}{DOI}}
+\pub{Muesluem Atas, \textbf{Thi Ngoc Trang Tran}, Alexander Felfernig, Seda Polat Erdeniz, Ralph Samer, Martin Stettinger. \textit{Towards Similarity-Aware Constraint-Based Recommendation}. \textit{Advances and Trends in Artificial Intelligence. From Theory to Practice}, pp. 287–299. \href{https://doi.org/10.1007/978-3-030-22999-3_26}{DOI}}
+
+\pubyear{2018}
+\pub{\textbf{Thi Ngoc Trang Tran}, Müslüm Atas, Alexander Felfernig, Ralph Samer, Martin Stettinger. \textit{Investigating Serial Position Effects in Sequential Group Decision Making}. \textit{Proceedings of the 26th Conference on User Modeling, Adaptation and Personalization}. UMAP ’18. ACM, pp. 239–243. \href{https://doi.org/10.1145/3209219.3209255}{DOI}}
+\pub{Muesluem Atas, Stefan Reiterer, Alexander Felfernig, \textbf{Thi Ngoc Trang Tran}, Martin Stettinger. \textit{Polarization Effects in Group Decisions}. \textit{Adjunct Publication of the 26th Conference on User Modeling, Adaptation and Personalization}. UMAP ’18. ACM, pp. 305–310. \href{https://doi.org/10.1145/3213586.3225242}{DOI}}
+\pub{Muesluem Atas, \textbf{Thi Ngoc Trang Tran}, Alexander Felfernig, Ralph Samer. \textit{Socially-Aware Recommendation for Over-Constrained Problems}. \textit{Recent Trends and Future Technology in Applied Intelligence}, pp. 267–278. \href{https://doi.org/10.1007/978-3-319-92058-0_25}{DOI}}
+
+\pubyear{2017}
+\pub{\textbf{Thi Ngoc Trang Tran}, Müslüm Atas, Alexander Felfernig, Martin Stettinger. \textit{An overview of recommender systems in the healthy food domain}. \textit{Journal of Intelligent Information Systems}, vol. 50, no. 3, pp. 501–526. \href{https://doi.org/10.1007/s10844-017-0469-0}{DOI}}
+
+% ------------------------------------------------------------------ teaching ---
+\section{Teaching}
+Responsible for organizing and/or lecturing the following courses at TU Graz:
+\begin{itemize}
+  \item \textbf{Recommender Systems} --- fundamentals and algorithms: content-based and collaborative filtering (matrix factorization), hybrid, knowledge-based, and group recommendation; plus LLMs in recommenders, explanations, evaluation, and biases.
+  \item \textbf{Configuration Systems} --- state-of-the-art configuration knowledge representation, interacting with configurators, and intelligent testing/debugging of configuration knowledge bases.
+  \item \textbf{Object-Oriented Analysis and Design} --- requirements engineering, class diagrams, state charts, object--relational mapping, design patterns, automated testing, and software design principles.
+  \item \textbf{Introduction to Structured Programming} --- foundational programming concepts and techniques.
+  \item \textbf{Software Development Process} --- software process models, high-quality requirements, prioritization, and effort estimation.
+  \item \textbf{Explanations in Artificial Intelligence} --- theoretical foundations of explainability in logic-based and sub-symbolic AI systems.
+\end{itemize}
+
+% ------------------------------------------------------- thesis supervision ----
+\section{Bachelor and Master Thesis Supervision}
+\begin{itemize}
+  \item Co-supervisor, Master thesis \textit{Application of Large Language Models in Usability Testing of Recommender Systems} (2025).
+  \item Co-supervisor, Master thesis \textit{Decision Biases in Food Recommendation Systems} (2023).
+  \item Supervisor, Bachelor thesis \textit{The Impacts of Primacy/Recency Effects on Item Review Sentiment Analysis} --- published at IntRS'22, Seattle, USA.
+  \item Supervisor, Bachelor thesis \textit{The Immunity of Users' Item Selection from Serial Position Effects in Multi-Attribute Item Recommendation Scenarios} --- published at IntRS'21, Amsterdam.
+\end{itemize}
+
+% ------------------------------------------------------- project experiences ---
+\section{Project Experiences}
+\begin{itemize}
+  \item \textbf{HUMAX} --- \textit{Human Factors-Enhanced Explanations in Recommender Systems} (FWF, WEAVE call). Principal Investigator and leader, in collaboration with Prof.\ Marko Tkal\v{c}i\v{c} (University of Primorska, Slovenia). Submitted 2024; received very positive reviews (C2); under revision for resubmission.
+  \item \textbf{GenRE} --- analysing how Large Language Models improve requirements engineering tasks (definition, quality assurance, reuse, prioritization).
+  \item \textbf{OpenSpace} --- automated analysis of software variability models and test-case generation; ML-based identification of faulty components and suboptimal parameter configurations.
+  \item \textbf{ParXCel} --- ML techniques to enhance constraint-solving performance and prediction quality, with parallelized analysis operations.
+  \item \textbf{WEWANT} (FFG no.\ 850702) --- configuration technologies and decision-making support for user groups.
+\end{itemize}
+
+% ------------------------------------------------- scientific community --------
+\section{Scientific Community Activities}
+\subsection{Conference and Workshop Organisation}
+Local Chair at \href{https://2022.splc.net/committees/organization/}{SPLC'2022} and ConfWS'2022.
+
+\subsection{Program Committee \& Reviewing}
+UMAP'2026; CHI'2023; FinRec'2022; IntRS'2022; UMAP'2022; UMAP'2021; CHI'2021;
+Journal of Intelligent Information Systems (JIIS).
+
+% -------------------------------------------------------------------- skills ---
+\section{Technical Skills}
+\begin{itemize}
+  \item \textbf{Programming Languages:} Java, JavaScript, PHP, Python
+  \item \textbf{Databases:} MySQL, SQL Server
+  \item \textbf{Languages:} Vietnamese (native), English (fluent), German (A2-B1)
+\end{itemize}
+
+\end{document}

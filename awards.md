@@ -1,22 +1,22 @@
 ---
 layout: default
-title: Honors, Awards & Grants – Viet-Man Le
+title: Honors, Awards & Grants – Thi Ngoc Trang Tran
 ---
 
 ## Honors, Awards & Grants
 
-- **2026** — *Projektfonds Lehre 2026*, TU Graz Vice-Rectorate for Teaching, for the **MIRROR** project — *Material Improvement through Reflective Review of Outputs and Resources*, an LLM-based teaching innovation project (team member; PI: Professor Alexander Felfernig).
+- **2023, 2024** — Nominated for the *Best Teaching Award* for the course *Introduction to Structured Programming* at [Graz University of Technology](https://www.tugraz.at/){:target="_blank"}.
 
-- **2023, 2024, 2025** — Nominated for the *Best Teaching Award* in the course *Introduction to Structured Programming* (ISP) at [Graz University of Technology](https://www.tugraz.at/){:target="_blank"}.
+- **2019** — *SIGCHI Student Travel Grant*, ACM [UMAP 2019](https://www.um.org/umap2019/){:target="_blank"}.
 
-- **2024** — Selected for the *Young Experts: Minute Madness* session at the [Austrian Computer Science Day 2024](https://acsd2024.univie.ac.at), University of Vienna — a session for excellent doctoral students in computer science at Austrian universities.
+- **2018** — *Best Paper Award*, [24th International Configuration Workshop (ConfWS 2018)](https://ceur-ws.org/Vol-2220/){:target="_blank"}, for *Liquid Democracy in Group-based Configuration*.
 
-- **2015–2016** — *Hue University Research Grant*, [Hue University](https://hueuni.edu.vn/){:target="_blank"}, for the project *"A framework using the attractive and repulsive multi-agent model for tourist attraction recommender systems"*.
+- **2017** — *Best Paper Award*, [29th International Conference on Software Engineering and Knowledge Engineering (SEKE 2017)](http://ksiresearchorg.ipage.com/seke/seke17.html){:target="_blank"}.
 
-- **2011** — *Internship Grant*, [Wallonie-Bruxelles International](https://www.wbi.be/), supporting a 7-month research internship at the [Catholic University of Louvain](https://uclouvain.be/){:target="_blank"}, Belgium (Apr–Nov 2011).
+- **2016** — *Runner-up Best Paper Award*, [22nd International Configuration Workshop (ConfWS 2016)](https://ceur-ws.org/Vol-1735/){:target="_blank"}, for *Towards Group-based Configuration*.
 
-- **2008–2011** — *Master's Scholarship*, [Agence Universitaire de la Francophonie (AUF)](https://www.auf.org/), for the Master of Computer Science program at the [Institute for Informatics in French-speaking areas](https://ifi.vnu.edu.vn/en/about/){:target="_blank"}, Vietnam.
+- **2015–2019** — *Vietnamese-Austrian Doctoral Grant*, jointly funded by the Vietnamese Government and [OeAD (Austria)](https://oead.at/en/){:target="_blank"}, for doctoral studies at TU Graz.
 
-- **2006** — *Research Grant*, [University of Economics, Hue University](https://hce.edu.vn/){:target="_blank"}, for designing and developing *A multiple-choice test system*.
+- **2004** — *Top Graduate* in Bachelor of Computer Science.
 
-- **2004** — *Outstanding Student Award in Computer Science*, [Ministry of Science and Technology of Vietnam](https://www.most.gov.vn/) — a nationwide award recognizing the top 100 Computer Science students by GPA, sponsored by [Motorola](https://www.motorola.com/).
+- **2003** — *Odon-Vallet Grant* — merit-based scholarship for exceptional Computer Science students.

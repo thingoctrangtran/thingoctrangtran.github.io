@@ -1,20 +1,18 @@
-title: "Viet-Man Le"
-tagline: "Researcher in Knowledge-Based AI | PhD Candidate at TU Graz | Open-Source Developer"
-url: "https://manleviet.github.io"
+title: "Thi Ngoc Trang Tran"
+tagline: "Senior Postdoctoral Researcher in Recommender Systems & Explainable AI | TU Graz, Austria"
+url: "https://thingoctrangtran.github.io"
 baseurl: ""
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
 
-tracking_id: UA-104489558-5
-
 favicon: true
 favicon_location: favicon.ico
 
 footer: true
-footer_url: "https://github.com/manleviet"
+footer_url: "https://github.com/thingoctrangtran"
 footer_copyright: "©2026"
-footer_text: "Viet-Man Le"
+footer_text: "Thi Ngoc Trang Tran"
 
 sass:
     style: compressed

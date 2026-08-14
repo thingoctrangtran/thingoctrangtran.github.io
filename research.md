@@ -3,19 +3,15 @@ layout: default
 title: Research – Thi Ngoc Trang Tran
 ---
 
-## Research
-
-My research centers on **recommender systems**, **user modeling**, and **human decision-making**, with an emphasis on **explainable recommendations** and support for both single-user and group decision making. Applications span domains such as **healthcare** and **sustainability-aware systems**. I also work on AI-based mechanisms for **software testing and debugging** in configuration systems.
-
-### Research Interests
+## Research Interests
 
 * Recommender Systems and Group Recommender Systems
 * User Modeling and Human Decision-Making
-* Explainable Recommendations
+* Human-Centered, Explainable Recommendations
+* AI Systems Built on Large Language Models
 * Recommender Systems for Healthcare and Sustainability
-* AI for Software Testing and Debugging in Configuration Systems
 
-### Projects
+## Projects
 
 **HUMAX** — *Human Factors-Enhanced Explanations in Recommender Systems.* Principal Investigator. Develops methods to incorporate human factors into explanations within recommender systems. (FWF WEAVE call, under review.)
 

@@ -7,10 +7,13 @@ title: Thi Ngoc Trang Tran
 
 I am a Senior Postdoctoral Researcher at the [Applied Software Engineering & AI Group](https://ase.ist.tugraz.at/){:target="_blank"}, Institute of Software Engineering and Artificial Intelligence, [Graz University of Technology](https://www.tugraz.at/){:target="_blank"} (TU Graz), Austria.
 
-My research focuses on **recommender systems**, **user modeling**, and **human decision-making**, with an emphasis on **explainable recommendations** and support for both single-user and group decision making. I apply these methods to domains such as **healthcare** and **sustainability-aware systems**, and I also work on AI-based mechanisms for **software testing and debugging** in configuration systems.
+A central theme in my research is how people actually experience a recommendation or an explanation, not just whether it is technically correct. I design explanation and recommendation strategies that adapt to human factors — user characteristics, demographics, situational context, and cognitive style — rather than treating every user the same way. These solutions support decision-making for both individual users and groups of users. I extend this human-centered perspective to AI systems more broadly, including those built on Large Language Models, with the goal of keeping decision support trustworthy, fair, and aligned with the people who rely on it.
+
+Beyond explaining recommendations, I also work on explanation approaches for constraint-based systems. Here, explanations take the form of conflicts — sets of user requirements that turn out to be inconsistent with the underlying knowledge base, either on their own or in combination with each other — together with suggestions on how to resolve them.
 
 ## News
 
+- **2026** — Paper "How Cultural Background and Cognitive Style Shape Responses to Sustainability-Aware Explanations in Healthy Food Recommender Systems" has been accepted to [CIKM'26](https://cikm2026.diag.uniroma1.it/){:target="_blank"}.
 - **2026** — Paper "When Do Contrastive Explanations Really Matter in Recommender Systems?" has been accepted to [RecSys'26](https://recsys.acm.org/recsys26/).
 - **2025** — Multiple workshop papers accepted at [IntRS'25](https://recsys.acm.org/recsys25/), [ConfWS 2025](https://confws.github.io/2025/), and [RecSoGood 2025](https://recsogood.github.io/), focusing on LLM-enhanced recommender systems and product-line engineering.
 - **2024** — Paper "Less is More: Towards Sustainability-Aware Persuasive Explanations in Recommender Systems" accepted at [RecSys 2024](https://recsys.acm.org/recsys24/).

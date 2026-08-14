@@ -4,7 +4,7 @@ Instructions for Claude (and other AI coding assistants) when working in this re
 
 ## What this repo is
 
-Personal academic website for Viet-Man Le, hosted at https://manleviet.github.io. Forked from `RubenBranco/rubenbranco.github.io` (al-folio-inspired Jekyll theme), then heavily customized:
+Personal academic website for Thi Ngoc Trang Tran, hosted at https://thingoctrangtran.github.io. Forked from Viet-Man Le's `manleviet.github.io` (itself forked from `RubenBranco/rubenbranco.github.io`, an al-folio-inspired Jekyll theme), then re-customized for Trang:
 
 - Migrated `publications.md` and `index.md` Featured block to **jekyll-scholar** with a single source of truth at `assets/bibliography/papers.bib`.
 - Custom `_layouts/pub_card.html` template consumes both standard BibTeX fields and four custom fields (`html_venue`, `rank`, `selected`, `featured`).
@@ -22,13 +22,13 @@ python3 scripts/papers_bib.py add "Paper Title Here"
 
 # Re-fetch an existing entry by its stored DOI, merging fresh metadata
 # while preserving user-curated selected/featured/rank/month/html_venue
-python3 scripts/papers_bib.py update bahnisch2026jair
+python3 scripts/papers_bib.py update tran2026when
 
 # Toggle selected or featured flag
-python3 scripts/papers_bib.py toggle featured bahnisch2026jair
+python3 scripts/papers_bib.py toggle featured tran2026when
 
 # Regenerate html_venue from current fields (for one entry or all)
-python3 scripts/papers_bib.py venue bahnisch2026jair
+python3 scripts/papers_bib.py venue tran2026when
 python3 scripts/papers_bib.py venue-all
 
 # List all entries with their flags + ranks
@@ -57,9 +57,9 @@ In those cases, after manual edit, run `python3 scripts/papers_bib.py venue <cit
 - `html_venue` — pre-rendered HTML for the venue line. Used **instead of** auto-building from booktitle/journal/series/volume/number/publisher (no single rule handles all the variety across CEUR / FAIA / LNNS / SCI / AAAI / SPLC / VaMoS / Software Impacts / JAIR / etc.).
 - `month` (1–12) — within-year sort key, descending. Set even for journal articles so within-year ordering is stable.
 
-**Author rendering:** the template splits `entry.author` on " and ", normalizes `Last, First` → `First Last`, and wraps the literal string `Viet-Man Le` in `<strong>`. No `author_html` override needed. Both BibTeX author formats (`Last, First and Last, First` or `First Last and First Last`) are supported, but be consistent within an entry.
+**Author rendering:** the template splits `entry.author` on " and ", normalizes `Last, First` → `First Last`, and wraps the literal string `Thi Ngoc Trang Tran` in `<strong>`. No `author_html` override needed. Both BibTeX author formats (`Last, First and Last, First` or `First Last and First Last`) are supported, but be consistent within an entry.
 
-**Citekey style:** al-folio short form, lowercase, no dots: `lastnameYEARfirstword` (e.g. `le2024informedqx`, `popescu2022mlconstraint`, `bahnisch2026jair`). The script generates these automatically when you use `add`. This is **different** from the master `references.bib` in the Obsidian vault, which uses JabRef format (`AuthorEtAl.YEAR.Keyword`).
+**Citekey style:** al-folio short form, lowercase, no dots: `lastnameYEARfirstword` (e.g. `tran2026when`, `lubos2025towards`). The script generates these automatically when you use `add`. This is **different** from the master `references.bib` in the Obsidian vault, which uses JabRef format (`AuthorEtAl.YEAR.Keyword`).
 
 **Theses** live as hand-curated markdown blocks under the `## Theses` heading in `publications.md`, NOT in the .bib. They have biographical content (supervisors, French original titles, scores, descriptions) that doesn't map cleanly to standard BibTeX fields.
 

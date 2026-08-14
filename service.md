@@ -26,11 +26,13 @@ My services, organisation, and volunteering activities for the research communit
 
 ### Journal Reviewing
 
+- **Reviewer** — [*ACM Transactions on Recommender Systems*](https://dl.acm.org/journal/tors){:target="_blank"} (TORS)
 - **Reviewer** — [*Journal of Artificial Intelligence Research*](https://www.jair.org/){:target="_blank"} (JAIR)
 - **Reviewer** — [*Journal of Intelligent Information Systems*](https://link.springer.com/journal/10844){:target="_blank"} (JIIS)
 
 ### Conference Presentations
 
+- **[CIKM 2026](https://cikm2026.diag.uniroma1.it/){:target="_blank"}** — Will present _How Cultural Background and Cognitive Style Shape Responses to Sustainability-Aware Explanations in Healthy Food Recommender Systems_ at the _35th ACM International Conference on Information and Knowledge Management_, Rome, Italy, November 2026 (upcoming).
 - **[RecSys 2026](https://recsys.acm.org/recsys26/){:target="_blank"}** — Will present _When Do Contrastive Explanations Really Matter in Recommender Systems?_ at the _20th ACM Conference on Recommender Systems_, September 2026 (upcoming).
 - **[UMAP 2023](https://www.um.org/umap2023/){:target="_blank"}** — Presented [_User Needs for Explanations of Recommendations: In-depth Analyses of the Role of Item Domain and Personal Characteristics_](https://doi.org/10.1145/3565472.3592950){:target="_blank"} at the _31st ACM Conference on User Modeling, Adaptation and Personalization_, Limassol, Cyprus, June 2023.
 - **[IntRS 2022](https://recsys.acm.org/recsys22/intrs/){:target="_blank"}** — Presented _The Impacts of Primacy/Recency Effects on Item Review Sentiment Analysis_ at the _Joint Workshop on Interfaces and Human Decision Making for Recommender Systems (IntRS ’22)_, co-located with [RecSys 2022](https://recsys.acm.org/recsys22/){:target="_blank"}, Seattle, WA, USA, September 2022.

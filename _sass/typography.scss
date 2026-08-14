@@ -152,3 +152,9 @@
         color: var(--text-primary);
     }
 }
+
+// Publication venue-ranking tag (CORE A*, CORE A, SCIMAGO Q1, …) — highlighted
+// in the theme accent blue so top-tier venues stand out in the publication cards.
+.pub-rank {
+    color: var(--accent);
+}

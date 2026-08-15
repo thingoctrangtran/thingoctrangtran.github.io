@@ -10,6 +10,7 @@ title: Research – Thi Ngoc Trang Tran
 * Human-Centered, Explainable Recommendations
 * AI Systems Built on Large Language Models
 * Recommender Systems for Healthcare and Sustainability
+* Explanations in Constraint-Based Systems
 
 ## Projects
 

@@ -5,13 +5,13 @@ title: Honors, Awards & Grants – Thi Ngoc Trang Tran
 
 ## Honors, Awards & Grants
 
+- **2026** — *Best Paper Award*, [International Conference on Software and Systems Reuse, Product Lines, and Configuration (VARIABILITY 2026)](https://conf.researchr.org/home/variability-2026){:target="_blank"}, for *Usability Analysis of Configurator User Interfaces with Multimodal Large Language Models*.
+
 - **2023, 2024** — Nominated for the *Best Teaching Award* for the course *Introduction to Structured Programming* at [Graz University of Technology](https://www.tugraz.at/){:target="_blank"}.
 
 - **2019** — *SIGCHI Student Travel Grant*, ACM [UMAP 2019](https://www.um.org/umap2019/){:target="_blank"}.
 
-- **2018** — *Best Paper Award*, [24th International Configuration Workshop (ConfWS 2018)](https://ceur-ws.org/Vol-2220/){:target="_blank"}, for *Liquid Democracy in Group-based Configuration*.
-
-- **2017** — *Best Paper Award*, [29th International Conference on Software Engineering and Knowledge Engineering (SEKE 2017)](http://ksiresearchorg.ipage.com/seke/seke17.html){:target="_blank"}.
+- **2018** — *Best Paper Award*, [20th International Configuration Workshop (ConfWS 2018)](https://ceur-ws.org/Vol-2220/){:target="_blank"}, for *Liquid Democracy in Group-based Configuration*.
 
 - **2016** — *Runner-up Best Paper Award*, [22nd International Configuration Workshop (ConfWS 2016)](https://ceur-ws.org/Vol-1735/){:target="_blank"}, for *Towards Group-based Configuration*.
 

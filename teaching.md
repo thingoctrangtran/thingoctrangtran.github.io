@@ -12,7 +12,7 @@ title: Teaching – Thi Ngoc Trang Tran
 - **Software Development Processes** — Master, Summer Semester. Lecturer / Organizer.
 - **Explanations in Artificial Intelligence** — Master, Summer Semester. Lecturer / Organizer.
 - **Object-Oriented Analysis and Design** — Bachelor, Winter Semester. Lecturer / Organizer.
-- **Introduction to Structured Programming** — Bachelor, Winter Semester. Lecturer / Organizer *(nominated for the Best Teaching Award in 2023 and 2024)*.
+- **Introduction to Structured Programming** — Bachelor, Winter Semester. Organizer *(nominated for the Best Teaching Award in 2023 and 2024)*.
 
 ### Master's Thesis Supervision
 

@@ -14,6 +14,7 @@
     /* Brand */
     --accent: #2563eb;
     --accent-hover: #1d4ed8;
+    --award: #b45309;
 
     /* Text */
     --text-primary: #1f2937;
@@ -53,6 +54,7 @@
 @mixin dark-palette {
     --accent: #539bf5;
     --accent-hover: #6cb6ff;
+    --award: #f0b429;
 
     --text-primary: #e6edf3;
     --text-secondary: #909dab;

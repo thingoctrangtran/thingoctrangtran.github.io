@@ -158,3 +158,9 @@
 .pub-rank {
     color: var(--accent);
 }
+
+// Best Paper Award callout — highlighted in gold/amber to stand out
+// from the venue text and from the blue rank tag above.
+.pub-award {
+    color: var(--award);
+}

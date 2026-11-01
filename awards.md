@@ -13,7 +13,7 @@ title: Honors, Awards & Grants – Thi Ngoc Trang Tran
 
 - **2018** — *Best Paper Award*, [20th International Configuration Workshop (ConfWS 2018)](https://ceur-ws.org/Vol-2220/){:target="_blank"}, for *Liquid Democracy in Group-based Configuration*.
 
-- **2016** — *Runner-up Best Paper Award*, [22nd International Configuration Workshop (ConfWS 2016)](https://ceur-ws.org/Vol-1735/){:target="_blank"}, for *Towards Group-based Configuration*.
+- **2016** — *Runner-up Best Paper Award*, [18th International Configuration Workshop (ConfWS 2016)](https://ceur-ws.org/Vol-1735/){:target="_blank"}, for *Towards Group-based Configuration*.
 
 - **2015–2019** — *Vietnamese-Austrian Doctoral Grant*, jointly funded by the Vietnamese Government and [OeAD (Austria)](https://oead.at/en/){:target="_blank"}, for doctoral studies at TU Graz.
 

@@ -7,12 +7,16 @@ title: Teaching – Thi Ngoc Trang Tran
 
 ### Courses at Graz University of Technology
 
-- **Recommender Systems** — Master, Summer Semester. Lecturer / Organizer.
-- **Configuration Systems** — Master, Winter Semester. Lecturer / Organizer.
-- **Software Development Processes** — Master, Summer Semester. Lecturer / Organizer.
-- **Explanations in Artificial Intelligence** — Master, Summer Semester. Lecturer / Organizer.
-- **Object-Oriented Analysis and Design** — Bachelor, Winter Semester. Lecturer / Organizer.
-- **Introduction to Structured Programming** — Bachelor, Winter Semester. Organizer *(nominated for the Best Teaching Award in 2023 and 2024)*.
+| Course | Level | My role | Students |
+|---|---|---|---|
+| Recommender Systems | Master's | Lecturer and organizer | 400+ |
+| Software Development Processes | Master's | Lecturer and organizer | 400+ |
+| Explanations in Artificial Intelligence | Master's | Lecturer and organizer | 150+ |
+| Configuration Systems | Master's | Organizer | 150+ |
+| Object-Oriented Analysis and Design | Bachelor's | Lecturer and organizer | 150+ |
+| Introduction to Structured Programming | Bachelor's | Organizer | 150+ |
+
+*Introduction to Structured Programming was nominated for the Best Teaching Award in 2023 and 2024.*
 
 ### Master's Thesis Supervision
 

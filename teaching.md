@@ -7,7 +7,7 @@ title: Teaching – Thi Ngoc Trang Tran
 
 ### Courses at Graz University of Technology
 
-In all six courses below, I serve as course organizer, responsible for the course structure, lecture and exercise materials, assignments and exams. I coordinate the team of teaching assistants and answer students' questions on the course forum. In four of these courses, I also give lectures, as listed in the table.
+In all six courses below, I serve as a course organizer, which includes providing exercise materials and assignments (for courses with exercises) and organizing exams. I coordinate the team of study assistants and answer students' questions on the course forum. In four of these courses, I also give lectures on selected topics, as listed in the table.
 
 | Course | Level | My role | Students |
 |---|---|---|---|

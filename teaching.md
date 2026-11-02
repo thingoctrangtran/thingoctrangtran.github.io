@@ -7,13 +7,15 @@ title: Teaching – Thi Ngoc Trang Tran
 
 ### Courses at Graz University of Technology
 
+In all six courses below, I serve as course organizer, responsible for the course structure, lecture and exercise materials, assignments and exams. I coordinate the team of teaching assistants and answer students' questions on the course forum. In four of these courses, I also give lectures, as listed in the table.
+
 | Course | Level | My role | Students |
 |---|---|---|---|
-| Recommender Systems | Master's | Lecturer and organizer | 400+ |
-| Software Development Processes | Master's | Lecturer and organizer | 400+ |
-| Explanations in Artificial Intelligence | Master's | Lecturer and organizer | 150+ |
+| Recommender Systems | Master's | Organizer and Lecturer (Topics: Content-Based Recommendation, Group Recommender Systems, and Further Topics in Recommender Systems) | 400+ |
+| Software Development Processes | Master's | Organizer and Lecturer (Topic: Effort Estimation) | 400+ |
+| Explanations in Artificial Intelligence | Master's | Organizer and Lecturer (Topics: Explanations in Recommender Systems and Advanced Topics in Explainable AI) | 150+ |
 | Configuration Systems | Master's | Organizer | 150+ |
-| Object-Oriented Analysis and Design | Bachelor's | Lecturer and organizer | 150+ |
+| Object-Oriented Analysis and Design | Bachelor's | Organizer and Lecturer (Topics: Course Introduction, Use Cases and Requirements Prioritization, Class Diagrams and Object-Relational Mapping (ORM), Sequence Diagrams and State Charts, and SOLID Design Principles) | 150+ |
 | Introduction to Structured Programming | Bachelor's | Organizer | 150+ |
 
 *Introduction to Structured Programming was nominated for the Best Teaching Award in 2023 and 2024.*

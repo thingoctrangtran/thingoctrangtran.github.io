@@ -12,7 +12,7 @@ In all six courses below, I serve as a course organizer, which includes all cour
 | Course | Programme | My role | #Students |
 |---|---|---|---|
 | Recommender Systems | Master | Organizer and Lecturer (Topics: Content-Based Recommendation, Group Recommender Systems, and Further Topics in Recommender Systems) | 400+ |
-| Software Development Processes | Bachelor | Organizer and Lecturer (Topic: Effort Estimation) | 400+ |
+| Software Development Processes | Bachelor | Organizer and Lecturer (Topic: Prioritization) | 400+ |
 | Explanations in Artificial Intelligence | Master | Organizer and Lecturer (Topics: Explanations in Recommender Systems and Advanced Topics in Explainable AI) | 150+ |
 | Configuration Systems | Master | Organizer | 150+ |
 | Object-Oriented Analysis and Design | Bachelor | Organizer and Lecturer (Topics: Course Introduction, Use Cases and Requirements Prioritization, Class Diagrams and Object-Relational Mapping (ORM), Sequence Diagrams and State Charts, and SOLID Design Principles) | 150+ |

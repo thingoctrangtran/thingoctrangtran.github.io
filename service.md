@@ -27,10 +27,10 @@ My services, organisation, and volunteering activities for the research communit
 ### Journal Reviewing
 
 - **Reviewer** — [*ACM Transactions on Recommender Systems*](https://dl.acm.org/journal/tors){:target="_blank"} (TORS)
-- **Reviewer** — [*Journal of Artificial Intelligence Research*](https://www.jair.org/){:target="_blank"} (JAIR)
 - **Reviewer** — [*Journal of Intelligent Information Systems*](https://link.springer.com/journal/10844){:target="_blank"} (JIIS)
 - **Reviewer** — [*ACM Transactions on Interactive Intelligent Systems*](https://dl.acm.org/journal/tiis){:target="_blank"} (TiiS)
 - **Reviewer** — [*Journal of Information and Telecommunication*](https://www.tandfonline.com/journals/tjit20){:target="_blank"} (JIT)
+- **Reviewer** — [*Artificial Intelligence Review*](https://link.springer.com/journal/10462){:target="_blank"}
 
 ### Conference Presentations
 
